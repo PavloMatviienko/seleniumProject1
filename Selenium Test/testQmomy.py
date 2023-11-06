@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 import pyautogui
 
 driver = Chrome()
-
+driver.maximize_window()
 driver.get(
         'https://qfinterfaces.qnomy.com:10443/QfRougeQa/VL_3.1_62/#/start/Qflow/personalId/dfb6cbfd-0bf0-472d-8561-49ab2fd9adf2')
 
